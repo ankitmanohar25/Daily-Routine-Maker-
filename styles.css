@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('photo_2024-08-24_20-02-40.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    
+    border-radius: 10px;
+    box-shadow: none;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 28%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f1f3f5;
+}
+
+.input-group input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-group button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-group button:hover {
+    background-color: #4cae4c;
+}
+
+.routine-list {
+    margin-top: auto;
+    overflow-y: auto;
+    max-height: 55%;
+    padding-top: 10px;
+}
+
+.routine-item {
+    background-color: #f1f3f5;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.routine-item:hover {
+    background-color: #d1dfe6;
+}
+
+.routine-item span {
+    font-size: 16px;
+}
+
+.routine-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.routine-item button:hover {
+    background-color: #c82333;
+}
